@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import CourseInner from "./pages/CourseInner";
+import Markdown from "./pages/Markdown";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         <Route path="course" element={<Course/>}/>
         <Route path="contact" element={<Contact/>}/>
         <Route path="courseinner" element={<CourseInner/>}/>
+        <Route path="mark" element={<Markdown/>}/>
       </Routes>
       <Footer/>
     </div>

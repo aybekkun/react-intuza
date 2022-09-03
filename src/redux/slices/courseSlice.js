@@ -4,8 +4,8 @@ const initialState = {
   value: 0,
 }
 
-export const postSlice = createSlice({
-  name: 'post',
+export const courseSlice = createSlice({
+  name: 'course',
   initialState,
   reducers: {
     increment: (state) => {
@@ -25,6 +25,6 @@ export const postSlice = createSlice({
 })
 
 // Action creators are generated for each case reducer function
-export const { increment, decrement, incrementByAmount } = postSlice.actions
+export const { increment, decrement, incrementByAmount } = courseSlice.actions
 
-export default postSlice.reducer
+export default courseSlice.reducer

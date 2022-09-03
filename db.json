@@ -12,58 +12,70 @@
       "name": "Backend",
       "price": 350000,
       "image": "./images/c1.jpg",
-      "instructor": {
-        "instructorId": 1,
-        "name": "Aybek",
-        "lastname": "Amanbaev",
-        "profi": "Web developer",
-        "instructorImg": "./images/pro1.webp"
-      },
       "overview": "JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one. Take-Away Skills: You will learn programming fundamentals and basic object-oriented concepts using the latest JavaScript syntax. JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.!",
       "learnlist": [
         "JavaScript from scratch - beginner to advance",
         "All about variable, functions, array, objects",
         "Object Oriented Programming",
         "Project-driven learning with plenty of example"
-      ]
+      ],
+      "instructoId": 1
     },
     {
       "id": 2,
       "name": "Frontend",
       "price": 350000,
       "image": "./images/c2.jpg",
-      "instructor": {
-        "instructorId": 1,
-        "name": "Aybek",
-        "lastname": "Amanbaev",
-        "profi": "Web developer",
-        "instructorImg": "./images/pro1.webp"
-      },
       "overview": "JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one. Take-Away Skills: You will learn programming fundamentals and basic object-oriented concepts using the latest JavaScript syntax. JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.!",
       "learnlist": [
         "JavaScript from scratch - beginner to advance",
         "All about variable, functions, array, objects",
         "Object Oriented Programming",
         "Project-driven learning with plenty of example"
-      ]
+      ],
+      "instructoId": 2
     },
     {
       "id": 3,
       "name": "Computer Foundation",
       "price": 350000,
-      "image": "./images/c3.jpg"
+      "image": "./images/c3.jpg",
+      "overview": "JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one. Take-Away Skills: You will learn programming fundamentals and basic object-oriented concepts using the latest JavaScript syntax. JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.!",
+      "learnlist": [
+        "JavaScript from scratch - beginner to advance",
+        "All about variable, functions, array, objects",
+        "Object Oriented Programming",
+        "Project-driven learning with plenty of example"
+      ],
+      "instructoId": 3
     },
     {
       "id": 4,
       "name": "UX/UI design",
       "price": 350000,
-      "image": "./images/c4.jpg"
+      "image": "./images/c4.jpg",
+      "overview": "JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one. Take-Away Skills: You will learn programming fundamentals and basic object-oriented concepts using the latest JavaScript syntax. JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.!",
+      "learnlist": [
+        "JavaScript from scratch - beginner to advance",
+        "All about variable, functions, array, objects",
+        "Object Oriented Programming",
+        "Project-driven learning with plenty of example"
+      ],
+      "instructoId": 4
     },
     {
       "id": 5,
       "name": "Graphic design",
       "price": 350000,
-      "image": "./images/c5.jpg"
+      "image": "./images/c5.jpg",
+      "overview": "JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one. Take-Away Skills: You will learn programming fundamentals and basic object-oriented concepts using the latest JavaScript syntax. JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.!",
+      "learnlist": [
+        "JavaScript from scratch - beginner to advance",
+        "All about variable, functions, array, objects",
+        "Object Oriented Programming",
+        "Project-driven learning with plenty of example"
+      ],
+      "instructoId": 5
     }
   ],
   "instuctors": [
@@ -71,21 +83,46 @@
       "id": 1,
       "name": "Aybek",
       "lastname": "Amanbaev",
-      "profi": "Web developer"
+      "profi": "Backend developer",
+      "fs_link": "https://www.facebook.com/amanbaevaybek/",
+      "ins_link": "https://www.instagram.com/aybekkun/",
+      "tg_link": "https://t.me/aaybekkun/"
     },
     {
       "id": 2,
       "name": "Aybek",
       "lastname": "Amanbaev",
-      "profi": "Backend developer"
+      "profi": "Web developer",
+      "fs_link": "https://www.facebook.com/amanbaevaybek/",
+      "ins_link": "https://www.instagram.com/aybekkun/",
+      "tg_link": "https://t.me/aaybekkun/"
     },
     {
       "id": 3,
       "name": "Aybek",
       "lastname": "Amanbaev",
-      "profi": "UI/UX disigner"
+      "profi": "Computer",
+      "fs_link": "https://www.facebook.com/amanbaevaybek/",
+      "ins_link": "https://www.instagram.com/aybekkun/",
+      "tg_link": "https://t.me/aaybekkun/"
     },
-    { "id": 4, "name": "Aybek", "lastname": "Amanbaev", "profi": "Photoshop" },
-    { "id": 5, "name": "Aybek", "lastname": "Amanbaev", "profi": "Computer" }
+    {
+      "id": 4,
+      "name": "Aybek",
+      "lastname": "Amanbaev",
+      "profi": "UI/UX disigner",
+      "fs_link": "https://www.facebook.com/amanbaevaybek/",
+      "ins_link": "https://www.instagram.com/aybekkun/",
+      "tg_link": "https://t.me/aaybekkun/"
+    },
+    {
+      "id": 5,
+      "name": "Aybek",
+      "lastname": "Amanbaev",
+      "profi": "Photoshop",
+      "fs_link": "https://www.facebook.com/amanbaevaybek/",
+      "ins_link": "https://www.instagram.com/aybekkun/",
+      "tg_link": "https://t.me/aaybekkun/"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
-import post from './slices/postSlice'
+import course from './slices/courseSlice'
 export const store = configureStore({
   reducer: {
-    post
+    course
   },
 })

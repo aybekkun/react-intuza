@@ -26,7 +26,11 @@ const Header = () => {
           Intuza <br /> Academy
         </Link>
         <div className="navigation">
-          <ul className={active ? "active" : ""}>
+         <div onClick={()=>setActive(false)} className={active ? "overlay" : ""}>
+         <ul
+            onClick={(e) => e.stopPropagation()}
+            className={active ? "active" : ""}
+          >
             <i
               onClick={() => setActive(false)}
               id="menu-close"
@@ -53,6 +57,7 @@ const Header = () => {
               </Link>
             </li>
           </ul>
+         </div>
           <img onClick={() => setActive(true)} id="menu-btn" src={menuImg} />
         </div>
       </nav>

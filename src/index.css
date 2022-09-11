@@ -925,6 +925,14 @@ footer .copyright .pro-links i:hover {
   }
 }
 @media (max-width: 769px) {
+  .overlay{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    background: rgba(17, 20, 104, 0.15);
+  }
   nav {
     padding: 15px 20px;
   }

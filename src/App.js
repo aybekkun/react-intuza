@@ -1,26 +1,23 @@
-
 import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Course from "./pages/Course";
-import Home from "./pages/Home";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import CoursePage from "./pages/CoursePage";
 import CourseInner from "./pages/CourseInner";
-import Markdown from "./pages/Markdown";
+import Home from "./pages/Home";
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="about" element={<About/>}/>
-        <Route path="course" element={<Course/>}/>
-        <Route path="contact" element={<Contact/>}/>
-        <Route path="courseinner" element={<CourseInner/>}/>
-        <Route path="mark" element={<Markdown/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="course" element={<CoursePage />} />
+        <Route path="course/:id" element={<CourseInner />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

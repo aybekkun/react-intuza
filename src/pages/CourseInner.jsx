@@ -7,15 +7,14 @@ const CourseInner = () => {
       <section
         id="about-home"
         style={{
-          backgroundImage: `linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
-    url("./images/development.webp")`,
+          backgroundImage: `linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url("/images/development.webp")`,
         }}
       >
         <h2>Enroll Our Popular Courses And Skill Up </h2>
       </section>
       <section id="course-inner">
         <div className="overview">
-          <img className="course-img" src="images/c1.jpg" />
+          <img className="course-img" src="/images/c1.jpg" />
           <div className="course-head">
             <div className="c-name">
               <h2>JavaScript Beginner courses</h2>
@@ -28,7 +27,7 @@ const CourseInner = () => {
           </div>
           <h2>Instructor</h2>
           <div className="tutor">
-            <img src="images/c4.jpg" />
+            <img src="/images/c4.jpg" />
             <div className="tutor-det">
               <h5>John Deo</h5>
               <p>Web Developer At Google</p>

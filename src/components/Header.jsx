@@ -6,6 +6,7 @@ const Header = () => {
 
   const smoothScroll = () => {
     window.scrollTo(0, 0);
+    setActive(false);
   };
   return (
     <>

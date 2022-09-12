@@ -4,10 +4,10 @@ import { useNavigate } from "react-router-dom";
 const Course = ({ id = 1, duration = 2 }) => {
   const navigate = useNavigate();
 
-  const onClickPost = ()=>{
+  const onClickPost = () => {
     navigate(`/course/${id}`);
     window.scrollTo(0, 360);
-  }
+  };
   return (
     <div className="courses">
       <img
@@ -22,7 +22,9 @@ const Course = ({ id = 1, duration = 2 }) => {
           JavaScript Beginner Courses
         </h6>
       </div>
-      <div className="cost">350 000 UZS</div>
+      <div className="cost">
+        {new Intl.NumberFormat("ru-RU").format(350000)} UZS
+      </div>
     </div>
   );
 };

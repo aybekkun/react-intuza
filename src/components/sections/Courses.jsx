@@ -4,9 +4,9 @@ import Course from "../Course";
 const Courses = () => {
   return (
     <section id="course">
-      <h1>Our Popular Courses</h1>
+      <h1>Biziń Kurslar </h1>
       <p className="mid">
-        Here, Our some popular courses which is enrolled by students!
+        Bul jerde IT tarawına tiyisli barlıq kurslardı tabasız 
       </p>
       <div className="course-box">
         <Course/>

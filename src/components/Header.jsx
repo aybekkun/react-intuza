@@ -39,22 +39,22 @@ const Header = () => {
             />
             <li>
               <Link to="/" onClick={smoothScroll}>
-                Home
+                Bas bet
               </Link>
             </li>
             <li>
               <Link to="/about" onClick={smoothScroll}>
-                About
+                Biz haqqımızda
               </Link>
             </li>
             <li>
               <Link to="/course" onClick={smoothScroll}>
-                Courses
+                Kurslar
               </Link>
             </li>
             <li>
               <Link to="/contact" onClick={smoothScroll}>
-                Contact
+                Kontakt
               </Link>
             </li>
           </ul>

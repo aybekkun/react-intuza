@@ -1,29 +1,19 @@
 import React from "react";
+import SocialLinks from "./SocialLinks";
 
 const Footer = () => {
   return (
     <footer>
       <div className="copyright">
-        <p>
-          Copyright 2021 All rights reserved | This templates is made by
-          Tech2etc
-        </p>
+        <p>Intuza IT Academy | Zamanaģoy kàsipler mektebi</p>
         <div className="pro-links">
-          <a
+          {/*     <a
             href="https://www.facebook.com/rishabh.chaubey.754"
             target="_blank"
           >
             <i className="fab fa-facebook" />
-          </a>
-          <a href="https://www.instagram.com/sarveshmishra3423" target="_blank">
-            <i className="fab fa-instagram" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/kirti-mishra-955075245"
-            target="_blank"
-          >
-            <i className="fa-brands fa-telegram"></i>
-          </a>
+          </a> */}
+          <SocialLinks />
         </div>
       </div>
     </footer>

@@ -12,7 +12,7 @@ const About = () => {
     url("./images/back1.jpg")`,
         }}
       >
-        <h2>About Intuza Academy /</h2>
+        <h2>Intuza Academy haqqında /</h2>
       </section>
       {/*about-container*/}
       <section id="about-container">
@@ -20,29 +20,26 @@ const About = () => {
           <img src="images/a.png" />
         </div>
         <div className="about-text">
-          <h2>
-            Welcome to TechEduca, Enhance Your Skills With Best Online Course
-          </h2>
+          <h2>Intuza IT Academy | Zamanaģoy kàsipler mektebi</h2>
           <p>
-            You can start &amp; finish one of these popular courses in under a
-            day - for free! Check out the list below... Take the courses for
-            free
+            Endi siz Intuza IT akademiyasında IT tarawın nolden Qániyge
+            dárejesine shekem úyrene alasız
           </p>
           <div className="about-fe">
             <img src="images/fe1.png" />
             <div className="fe-text">
-              <h5>400+ Courses</h5>
+              <h5>7+ Kurslar</h5>
               <p>
-                You can start &amp; finish one of these popular courses in under
-                our site
+                UI/UX Designer, Front-End, Back-End, Compyuter Foundition, Scratch,
+                Kotlin, Android bulardıń bári Intuza IT akademiyasında
               </p>
             </div>
           </div>
           <div className="about-fe">
             <img src="images/fe2.png" />
             <div className="fe-text">
-              <h5>Life-Time Access</h5>
-              <p>You can access courses any time, any where from our site</p>
+              <h5>Intuza IT akademiyası esikleri hàmme ushın ashıq!</h5>
+              <p>Bizde toqtawsız jańa toparlar ashılıp turadı</p>
             </div>
           </div>
         </div>

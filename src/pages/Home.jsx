@@ -14,14 +14,14 @@ const Home = () => {
     url("./images/back.jpg") `,
         }}
       >
-        <h2>Enhance Your Future With Our Courses</h2>
+        <h2>Kurslarımız menen keleshegińizdi qurıń</h2>
         <p />
         <div className="btn">
           <Link className="blue" to="/about">
-            Learn More
+            Qosımsha maǵlıwmat alıw
           </Link>
           <Link className="yellow" to="/course">
-            Visit Courses
+            Kurslarımız
           </Link>
         </div>
       </section>

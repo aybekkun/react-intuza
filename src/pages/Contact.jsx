@@ -1,4 +1,5 @@
 import React from "react";
+import SocialLinks from "../components/SocialLinks";
 
 const Contact = () => {
   return (
@@ -11,7 +12,7 @@ const Contact = () => {
     url("./images/back3.webp")`,
         }}
       >
-        <h2>Contact / </h2>
+        <h2>Kontakt / </h2>
       </section>
       <section id="contact1">
         <div className="getin">
@@ -40,27 +41,7 @@ const Contact = () => {
             </div>
             <h3>Follow Us</h3>
             <div className="pro-links">
-              <a
-                href="https://www.facebook.com/rishabh.chaubey.754"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fab fa-facebook" />
-              </a>
-              <a
-                href="https://www.instagram.com/sarveshmishra3423"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fab fa-instagram" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/kirti-mishra-955075245"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fa-brands fa-telegram"></i>
-              </a>
+              <SocialLinks />
             </div>
           </div>
         </div>
@@ -88,7 +69,7 @@ const Contact = () => {
               <option value="android">Android</option>
             </select>
           </div>
-  
+
           <div className="form-col">
             <button>Send Message</button>
           </div>

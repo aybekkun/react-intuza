@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const CourseInner = () => {
   return (
     <>
@@ -95,9 +95,9 @@ const CourseInner = () => {
             Certificate
           </p>
           <div className="enroll-btn">
-            <a className="blue" href="contact.html">
+            <Link to="/contact" className="blue">
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
       </section>

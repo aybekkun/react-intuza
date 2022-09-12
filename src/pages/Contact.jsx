@@ -42,19 +42,22 @@ const Contact = () => {
             <div className="pro-links">
               <a
                 href="https://www.facebook.com/rishabh.chaubey.754"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <i className="fab fa-facebook" />
               </a>
               <a
                 href="https://www.instagram.com/sarveshmishra3423"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <i className="fab fa-instagram" />
               </a>
               <a
                 href="https://www.linkedin.com/in/kirti-mishra-955075245"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <i className="fa-brands fa-telegram"></i>
               </a>
@@ -65,22 +68,27 @@ const Contact = () => {
           <h4>Let's Connect</h4>
           <p>Feel free to Contact us!</p>
           <div className="form-row">
-            <input type="text" placeholder="Your Name" />
-            <input type="text" placeholder="Your Email" />
+            <input type="text" placeholder="Atıńız" />
+            <input type="text" placeholder="Familiya" />
           </div>
           <div className="form-col">
-            <input type="text" placeholder="Subject" />
+            <input type="text" placeholder="Telefon nomer" />
           </div>
           <div className="form-col">
-            <textarea
-              name=""
-              id=""
-              cols={30}
-              rows={8}
-              placeholder="How can we help you?"
-              defaultValue={""}
-            />
+            <select defaultValue={"select"} className="select">
+              <option value="select" disabled>
+                Kurs saylań
+              </option>
+              <option value="uiux">UI/UX Designer</option>
+              <option value="frontend">Front-End</option>
+              <option value="backend">Back-End</option>
+              <option value="compyuterfoundition">Compyuter Foundition</option>
+              <option value="scratch">Scratch</option>
+              <option value="kotlin">Kotlin</option>
+              <option value="android">Android</option>
+            </select>
           </div>
+  
           <div className="form-col">
             <button>Send Message</button>
           </div>
@@ -89,15 +97,14 @@ const Contact = () => {
       {/* Map*/}
       <section id="map">
         <iframe
-        title="map"
+          title="map"
           src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d1750.333909969499!2d59.6194039992372!3d42.45541961752918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x41dd9a124ab32907%3A0x10098dddecf043fb!2z0J3Rg9C60YPRgSwg0KPQt9Cx0LXQutC40YHRgtCw0L0!3m2!1d42.454924!2d59.618600799999996!5e0!3m2!1sru!2sru!4v1662112207906!5m2!1sru!2sru"
           width="600"
           height="450"
-          style={{border:"0"}}
+          style={{ border: "0" }}
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-       
         />
       </section>
       {/*Footer*/}

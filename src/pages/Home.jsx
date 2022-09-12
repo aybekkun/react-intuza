@@ -11,7 +11,7 @@ const Home = () => {
         id="home"
         style={{
           backgroundImage: `linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
-    url("./images/back.jpg") `,
+    url("./images/back.webp") `,
         }}
       >
         <h2>Kurslarımız menen keleshegińizdi qurıń</h2>

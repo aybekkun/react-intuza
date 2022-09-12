@@ -16,20 +16,19 @@ const Contact = () => {
       </section>
       <section id="contact1">
         <div className="getin">
-          <h2>Get in touch</h2>
-          <p>Looking for help? Fill the form and start a new adventure.</p>
+          <h2>Baylanıs </h2>
+          <p>Járdem kerekpa? Biz benen habarlasıń</p>
           <div className="getin-details">
             <h3>Headquaters</h3>
             <div>
               <i className="fas fa-home get" />
-              <p>744, New York Ave, Brooklyn, kings, New York 10224</p>
+              <p>I.Karimov kóshesi №76ùy. Baǵdar FONON zergerlik dúkanı.</p>
             </div>
             <h3>Phone</h3>
             <div>
               <i className="fas fa-phone-alt get" />
               <p>
-                (+91) 7896543219 <br />
-                (+91) 7896543219
+                <a className="link" href="tel:+998905930011">+998905930011</a>
               </p>
             </div>
             <h3>Support</h3>
@@ -39,15 +38,15 @@ const Contact = () => {
                 kirti@gmail.com <br /> sm@gmail.com
               </p>
             </div>
-            <h3>Follow Us</h3>
+            <h3>Social tarmaqlar</h3>
             <div className="pro-links">
               <SocialLinks />
             </div>
           </div>
         </div>
         <div className="form">
-          <h4>Let's Connect</h4>
-          <p>Feel free to Contact us!</p>
+          <h4>Kursqa jazılıń</h4>
+          <p>Kerek kurstı saylap, erte jazılıp qoyıń</p>
           <div className="form-row">
             <input type="text" placeholder="Atıńız" />
             <input type="text" placeholder="Familiya" />
@@ -71,7 +70,7 @@ const Contact = () => {
           </div>
 
           <div className="form-col">
-            <button>Send Message</button>
+            <button>Jazılıw</button>
           </div>
         </div>
       </section>

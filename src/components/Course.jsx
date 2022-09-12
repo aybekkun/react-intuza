@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Course = ({ id = 1, duration = 2 }) => {
+const Course = ({ id = 1, duration = 2, name, price, image }) => {
   const navigate = useNavigate();
 
   const onClickPost = () => {
@@ -13,17 +13,17 @@ const Course = ({ id = 1, duration = 2 }) => {
       <img
         className="link"
         onClick={onClickPost}
-        src="./images/c1.jpg"
+        src={`./images/${image}`}
         alt="image"
       />
       <div className="details">
         <span>Dawamlıǵı {duration} ay</span>
         <h6 className="link" onClick={onClickPost}>
-          JavaScript Beginner Courses
+          {name}
         </h6>
       </div>
       <div className="cost">
-        {new Intl.NumberFormat("ru-RU").format(350000)} UZS
+        {new Intl.NumberFormat("ru-RU").format(price)} UZS
       </div>
     </div>
   );

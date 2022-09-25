@@ -19,24 +19,24 @@ const Contact = () => {
           <h2>Baylanıs </h2>
           <p>Járdem kerekpa? Biz benen habarlasıń</p>
           <div className="getin-details">
-            <h3>Headquaters</h3>
+            <h3>Mánzil</h3>
             <div>
               <i className="fas fa-home get" />
               <p>I.Karimov kóshesi №76ùy. Baǵdar FONON zergerlik dúkanı.</p>
             </div>
-            <h3>Phone</h3>
+            <h3>Telefon nomer</h3>
             <div>
               <i className="fas fa-phone-alt get" />
               <p>
-                <a className="link" href="tel:+998905930011">+998905930011</a>
+                <a className="link" href="tel:+998905930011">
+                  +998905930011
+                </a>
               </p>
             </div>
-            <h3>Support</h3>
+            <h3>Járdem</h3>
             <div>
               <i className="fas fa-envelope-open-text get" />
-              <p>
-                kirti@gmail.com <br /> sm@gmail.com
-              </p>
+              <p>intuza.academy@gmail.com</p>
             </div>
             <h3>Social tarmaqlar</h3>
             <div className="pro-links">

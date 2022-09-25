@@ -55,15 +55,15 @@ const CourseInner = () => {
           <i className="fa fa-cloud-download" aria-hidden="true" />
           <p>
             <i className="fa-regular fa-clock" aria-hidden="true" />
-            52 hours video
+            6 ay 
           </p>
           <p>
             <i className="far fa-newspaper" />
-            72 articals
+          Qosımsha testler
           </p>
           <p>
             <i className="fa-regular fa-folder-open"></i>
-            Materials
+           Kurs materiyalları
           </p>
           <p>
             <i className="fa-solid fa-file-code"></i>
@@ -71,7 +71,7 @@ const CourseInner = () => {
           </p>
           <p>
             <i className="fa-regular fa-copy"></i>
-            Certificate
+            Sertifikat
           </p>
           <div className="enroll-btn">
             <Link to="/contact" className="blue">

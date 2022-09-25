@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <>
       <nav>
-        <Link to="/" className="logo">
+        <Link to="/" onClick={smoothScroll} className="logo">
           <span>
             <svg
               height="512"
@@ -59,7 +59,7 @@ const Header = () => {
             </li>
           </ul>
          </div>
-          <img onClick={() => setActive(true)} id="menu-btn" src={menuImg} />
+          <img onClick={() => setActive(true)} id="menu-btn" src={menuImg} alt="Menu"/>
         </div>
       </nav>
     </>

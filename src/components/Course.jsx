@@ -14,7 +14,7 @@ const Course = ({ id = 1, duration = 2, name, price, image }) => {
         className="link"
         onClick={onClickPost}
         src={`./images/${image}`}
-        alt="image"
+        alt="Курс ментор"
       />
       <div className="details">
         <span>Dawamlıǵı {duration} ay</span>

@@ -3,28 +3,27 @@ import React from "react";
 const Features = () => {
   return (
     <section id="features">
-      <h1>Awesome Features</h1>
-      <p className="mid">
-        We Provide some awesome features for our enrolled students
-      </p>
+      <h1>Qolaylıqlar</h1>
+      <p className="mid">Bizdiń qolaylıqlardı kórinler.</p>
       <div className="fea-base">
         <div className="fea-box">
           <i className="fas fa-graduation-cap" />
-          <h3>Scholarship Facility</h3>
-          <p>If you enroll in our courses you get 100% Scholarship.</p>
+          <h3>Tájriybeli Mentorlar</h3>
+          <p>
+            {" "}
+            Jónelis hám professional kónlikpeler kompleksin tańlawda mentorlar
+            sizge járdem beredi.
+          </p>
         </div>
         <div className="fea-box">
-        <i className="fa-solid fa-location-dot"></i>
-          <h3>Placement</h3>
-          <p>We also placed to our students in top company.</p>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <h3>Qolay bahalar</h3>
+          <p>Bizde eń jaqsı bahalar.</p>
         </div>
         <div className="fea-box">
           <i className="fas fa-award" />
-          <h3>Global Certificate</h3>
-          <p>
-            We provide a Global Certificate to our students so that they boost
-            their career easily.
-          </p>
+          <h3>Sertifikat</h3>
+          <p>Hár bir kursımız tabıslı tamamlaǵanlarǵa sertifikat beriledi.</p>
         </div>
       </div>
     </section>

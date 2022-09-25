@@ -181,7 +181,6 @@ nav .navigation ul li a:hover {
   transition: 0.3s ease;
   margin-right: 20px;
   margin-top: 10px;
-
 }
 
 #home a.blue:hover {
@@ -950,6 +949,26 @@ footer .copyright .pro-links i:hover {
   #registration {
     flex-direction: column;
   }
+  #contact1 {
+    flex-direction: column;
+  }
+  #contact1 .form {
+    margin-top: 20px;
+    width: 100%;
+    background: #f7f6fa;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  #about-container {
+    flex-direction: column-reverse;
+}
+#about-container .about-img {
+  width: 100%;
+  padding-right: 0;
+}
+#about-container .about-text {
+  width: 100%;
+}
 }
 @media (max-width: 769px) {
   .overlay {

@@ -1,11 +1,4 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
   "courses": [
     {
       "id": 1,
@@ -84,45 +77,35 @@
       "name": "Aybek",
       "lastname": "Amanbaev",
       "profi": "Backend developer",
-      "fs_link": "https://www.facebook.com/amanbaevaybek/",
-      "ins_link": "https://www.instagram.com/aybekkun/",
-      "tg_link": "https://t.me/aaybekkun/"
+      "social_links": [{ "telegram": "" }, { "instagram": "" }]
     },
     {
       "id": 2,
       "name": "Aybek",
       "lastname": "Amanbaev",
       "profi": "Web developer",
-      "fs_link": "https://www.facebook.com/amanbaevaybek/",
-      "ins_link": "https://www.instagram.com/aybekkun/",
-      "tg_link": "https://t.me/aaybekkun/"
+      "social_links": [{ "telegram": "" }, { "instagram": "" }]
     },
     {
       "id": 3,
       "name": "Aybek",
       "lastname": "Amanbaev",
       "profi": "Computer",
-      "fs_link": "https://www.facebook.com/amanbaevaybek/",
-      "ins_link": "https://www.instagram.com/aybekkun/",
-      "tg_link": "https://t.me/aaybekkun/"
+      "social_links": [{ "telegram": "" }, { "instagram": "" }]
     },
     {
       "id": 4,
       "name": "Aybek",
       "lastname": "Amanbaev",
       "profi": "UI/UX disigner",
-      "fs_link": "https://www.facebook.com/amanbaevaybek/",
-      "ins_link": "https://www.instagram.com/aybekkun/",
-      "tg_link": "https://t.me/aaybekkun/"
+      "social_links": [{ "telegram": "" }, { "instagram": "" }]
     },
     {
       "id": 5,
       "name": "Aybek",
       "lastname": "Amanbaev",
       "profi": "Photoshop",
-      "fs_link": "https://www.facebook.com/amanbaevaybek/",
-      "ins_link": "https://www.instagram.com/aybekkun/",
-      "tg_link": "https://t.me/aaybekkun/"
+      "social_links": [{ "telegram": "" }, { "instagram": "" }]
     }
   ]
 }
